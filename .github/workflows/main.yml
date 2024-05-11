@@ -21,8 +21,8 @@ jobs:
       - name: Setup Node.js and npm
         uses: actions/setup-node@v3
         with:
-         node-version: '20.12.2'
-         npm : '10.5.0'
+         node-version: '14.17.2'
+         npm : 'latest'
 
       - name: Install Build Essential
         run: |
